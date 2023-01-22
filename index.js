@@ -22,7 +22,7 @@ document.getElementById("playBtn").onclick = function(){
                 tries++;
             }       
     }
-
+    document.getElementById("numimput").value = "";
 };
 document.getElementById("replayBtn").onclick = function(){
      pcnum = Math.floor(Math.random() * 10 + 1) ;
